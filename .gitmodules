@@ -1,0 +1,3 @@
+[submodule "lib/SmallPHPMVC"]
+	path = lib/SmallPHPMVC
+	url = ../SmallPHPMVC
