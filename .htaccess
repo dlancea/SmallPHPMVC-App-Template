@@ -1,0 +1,6 @@
+# Reroutes execution to the app/public folder.
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    app/public/    [L]
+    RewriteRule    (.*) app/public/$1    [L]
+</IfModule>
